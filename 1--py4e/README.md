@@ -13,7 +13,8 @@ According to [PY4E](https://www.py4e.com/)
 - [Chapter 5: Iterations](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/05.md)
   - [Exercise 5.1](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/05.1.py)
   - [Exercise 5.2](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/05.2.py)
-- [Chapter 6: Strings]
+- [Chapter 6: Strings](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/06.md)
+  - [Exercise 6.5](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/06.5.py)
 - [Chapter 7: Files]
 - [Chapter 8: Lists]
 - [Chapter 9: Dictionaries]
