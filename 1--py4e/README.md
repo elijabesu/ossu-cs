@@ -19,7 +19,10 @@ According to [PY4E](https://www.py4e.com/)
   - [Exercise 7.1](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/07.1.py)
   - [Exercise 7.2](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/07.2.py)
   - [Exercise 7.3](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/07.3.py)
-- [Chapter 8: Lists]
+- [Chapter 8: Lists](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/08.md)
+  - [Exercise 8.4](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/08.4.py)
+  - [Exercise 8.5](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/08.5.py)
+  - [Exercise 8.6](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/08.6.py)
 - [Chapter 9: Dictionaries]
 - [Chapter 10: Tuples]
 - [Chapter 11: Regular Expressions]
