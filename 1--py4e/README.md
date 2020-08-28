@@ -15,7 +15,10 @@ According to [PY4E](https://www.py4e.com/)
   - [Exercise 5.2](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/05.2.py)
 - [Chapter 6: Strings](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/06.md)
   - [Exercise 6.5](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/06.5.py)
-- [Chapter 7: Files]
+- [Chapter 7: Files](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/07.md)
+  - [Exercise 7.1](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/07.1.py)
+  - [Exercise 7.2](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/07.2.py)
+  - [Exercise 7.3](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/07.3.py)
 - [Chapter 8: Lists]
 - [Chapter 9: Dictionaries]
 - [Chapter 10: Tuples]
