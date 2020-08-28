@@ -1,10 +1,10 @@
 ## Python for Everybody
 According to [PY4E](https://www.py4e.com/)
 
-<img src="/badges/enrolled.png"  width="75" height="75">
-<img src="/badges/helloworld.png"  width="75" height="75">
-<img src="/badges/coding.png"  width="75" height="75">
-<img src="/badges/datastructures.png"  width="75" height="75">
+<img src="/1--py4e/badges/enrolled.png"  width="75" height="75">
+<img src="/1--py4e/badges/helloworld.png"  width="75" height="75">
+<img src="/1--py4e/badges/coding.png"  width="75" height="75">
+<img src="/1--py4e/badges/datastructures.png"  width="75" height="75">
 
 - [Chapter 1: Introduction](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/01.md)
 - [Chapter 2: Variables](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/02.md)
