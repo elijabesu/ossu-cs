@@ -17,7 +17,7 @@ fname = input("Enter a file name: ")
 try:
     fhand = open(fname)
 except:
-    print("File" + fname + "could not be found")
+    print("File " + fname + " could not be found")
     quit()
 
 count = 0

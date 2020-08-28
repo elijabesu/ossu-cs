@@ -15,7 +15,7 @@ fname = input("Enter a file name: ")
 try:
     fhandle = open(fname)
 except:
-    print("File" + fname + "could not be found")
+    print("File " + fname + " could not be found")
     quit()
 
 days = list()
