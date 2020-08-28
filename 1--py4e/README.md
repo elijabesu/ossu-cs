@@ -1,6 +1,11 @@
 ## Python for Everybody
 According to [PY4E](https://www.py4e.com/)
 
+![Enrolled in Python for Everybody (PY4E)](https://www.py4e.com/tsugi/badges/images/6177504e4678564753563875704539675a307968397934307377656a78706134766678313041696a44764d44.png)
+![Introductory Python - Hello World!](https://www.py4e.com/tsugi/badges/images/617750427468564753562b64322b71344d394c6d433344565433576764462b44497857564178482b4d773d3d.png)
+![Introductory Python - Getting Started](https://www.py4e.com/tsugi/badges/images/62414d363652564753562f6b3772597435387a6145486e7974383745774458554d56304847556162.png)
+![Python Data Structures](https://www.py4e.com/tsugi/badges/images/62414e566a52564753563866316d39505a6f666445624364475941482b2f73554571783161346638.png)
+
 - [Chapter 1: Introduction](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/01.md)
 - [Chapter 2: Variables](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/02.md)
 - [Chapter 3: Conditionals](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/03.md)
