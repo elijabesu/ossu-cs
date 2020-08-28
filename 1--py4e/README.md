@@ -17,7 +17,8 @@ According to [PY4E](https://www.py4e.com/)
   - Exercises: [8.4](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/08.4.py), [8.5](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/08.5.py), [8.6](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/08.6.py)
 - [Chapter 9: Dictionaries](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/09.md)
   - Exercises: [9.2](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/09.2.py), [9.3](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/09.3.py), [9.4](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/09.4.py), [9.5](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/09.5.py)
-- [Chapter 10: Tuples]
+- [Chapter 10: Tuples](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/10.md)
+  - Exercises: [10.1](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/10.1.py), [10.2](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/10.2.py), [10.3](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/10.3.py)
 - [Chapter 11: Regular Expressions]
 - [Chapter 12: Networked Programs]
 - [Chapter 13: Python and Web Services]
