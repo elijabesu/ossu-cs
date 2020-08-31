@@ -1,7 +1,7 @@
 # ossu-cs
 My files for OSSU's Computer Science curriculum.
 
-All credit to <a href="https://github.com/ossu/computer-science"><img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg"></a>
+<a href="https://github.com/ossu/computer-science"><img alt="Open Source Society University - Computer Science" src="https://img.shields.io/badge/OSSU-computer--science-blue.svg"></a>
 
 ## Curriculum
 

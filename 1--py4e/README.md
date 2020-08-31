@@ -1,7 +1,5 @@
 # Python for Everybody
-According to [PY4E](https://www.py4e.com/)
-
-<img src="/1--py4e/badges/enrolled.png"  width="75" height="75"> <img src="/1--py4e/badges/helloworld.png"  width="75" height="75"> <img src="/1--py4e/badges/coding.png"  width="75" height="75"> <img src="/1--py4e/badges/datastructures.png"  width="75" height="75">
+According to [Python for Everybody](https://www.py4e.com/).
 
 - [Chapter 1: Introduction](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/01.md)
 - [Chapter 2: Variables](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/02.md)
@@ -22,7 +20,7 @@ According to [PY4E](https://www.py4e.com/)
 - [Chapter 10: Tuples](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/10.md)
   - Exercises: [10.1](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/exercises/10.1.py), [10.2](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/exercises/10.2.py), [10.3](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/exercises/10.3.py)
 - [Chapter 11: Regular Expressions](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/11.md)
-  - Exercises: [11.1](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/exercises/11.1.py), [11.2](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/exercises/11.2.py), [11.assignent](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/exercises/11.assignent.py), 
+  - Exercises: [11.1](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/exercises/11.1.py), [11.2](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/exercises/11.2.py), [11.assignent](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/exercises/11.assignent.py)
 - [Chapter 12: Networked Programs]
 - [Chapter 13: Python and Web Services]
 - [Chapter 14: Python Objects]
