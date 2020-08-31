@@ -1,4 +1,4 @@
-## Python for Everybody
+# Python for Everybody
 According to [PY4E](https://www.py4e.com/)
 
 <img src="/1--py4e/badges/enrolled.png"  width="75" height="75"> <img src="/1--py4e/badges/helloworld.png"  width="75" height="75"> <img src="/1--py4e/badges/coding.png"  width="75" height="75"> <img src="/1--py4e/badges/datastructures.png"  width="75" height="75">

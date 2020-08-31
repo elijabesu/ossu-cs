@@ -9,8 +9,8 @@ All credit to <a href="https://github.com/ossu/computer-science"><img alt="Open 
 
 - [Prerequisites](https://github.com/ossu/computer-science/blob/master/README.md#prerequisites)
 - [Intro CS](https://github.com/ossu/computer-science/blob/master/README.md#intro-cs)
-  - [Introduction to Programming](https://github.com/ossu/computer-science/blob/master/README.md#introduction-to-programming) -- [*my files*](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/README.md)
-  - [Introduction to Computer Science](https://github.com/ossu/computer-science/blob/master/README.md#introduction-to-computer-science)
+  - [Introduction to Programming](https://github.com/ossu/computer-science/blob/master/README.md#introduction-to-programming) -- [*my files: 1--py4e*](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/README.md)
+  - [Introduction to Computer Science](https://github.com/ossu/computer-science/blob/master/README.md#introduction-to-computer-science) -- [*my files: 1--6.00.1x*](https://github.com/elijabesu/ossu-cs/blob/master/1--6.00.1x/README.md)
   - [Introduction to CS Tools](https://github.com/ossu/computer-science/blob/master/README.md#introduction-to-cs-tools)
 - [Core CS](https://github.com/ossu/computer-science/blob/master/README.md#core-cs)
   - [Core programming](https://github.com/ossu/computer-science/blob/master/README.md#core-programming)
