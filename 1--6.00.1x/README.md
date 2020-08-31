@@ -2,7 +2,8 @@
 According to [Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-10).
 
 - [1. Introduction to Python](https://github.com/elijabesu/ossu-cs/blob/master/1--6.00.1x/01.md)
-- [2. Core Elements of Programs]
+- [2. Core Elements of Programs](https://github.com/elijabesu/ossu-cs/blob/master/1--6.00.1x/02.md)
+  - Exercises: [02.happy](https://github.com/elijabesu/ossu-cs/blob/master/1--6.00.1x/02.happy.py)
 - [3. Simple Programs]
 - [4. Functions]
 - [5. Tuples and Lists]
