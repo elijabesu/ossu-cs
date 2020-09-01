@@ -1,70 +1,43 @@
-# Scraping Numbers from HTML using BeautifulSoup
-# 
-# In this assignment you will write a Python program similar to http://www.py4e.com/code3/urllink2.py.
-# The program will use urllib to read the HTML from the data files below, and parse the data, extracting
-# numbers and compute the sum of the numbers in the file.
-# 
-# We provide two files for this assignment. One is a sample file where we give you the sum for your
-# testing and the other is the actual data you need to process for the assignment.
-# 
-# Sample data: http://py4e-data.dr-chuck.net/comments_42.html (Sum=2553)
-# Actual data: http://py4e-data.dr-chuck.net/comments_925876.html (Sum ends with 30)
-# 
-# You do not need to save these files to your folder since your program will read the data directly
-# from the URL. Note: Each student will have a distinct data url for the assignment - so only use
-# your own data url for analysis.
-# 
-# Data Format
-# 
-# The file is a table of names and comment counts. You can ignore most of the data in the file
-# except for lines like the following:
-# 
-# <tr><td>Modu</td><td><span class="comments">90</span></td></tr>
-# <tr><td>Kenzie</td><td><span class="comments">88</span></td></tr>
-# <tr><td>Hubert</td><td><span class="comments">87</span></td></tr>
-# 
-# You are to find all the <span> tags in the file and pull out the numbers from the tag and sum the numbers.
-# Look at the sample code provided. It shows how to find all of a certain kind of tag, loop through the
-# tags and extract the various aspects of the tags.
-# 
-# ...
-# # Retrieve all of the anchor tags
-# tags = soup('a')
-# for tag in tags:
-#    # Look at the parts of a tag
-#    print 'TAG:',tag
-#    print 'URL:',tag.get('href', None)
-#    print 'Contents:',tag.contents[0]
-#    print 'Attrs:',tag.attrs
-# 
-# You need to adjust this code to look for span tags and pull out the text content of the span tag,
-# convert them to integers and add them up to complete the assignment.
-# 
-# Sample Execution
-# 
-# $ python3 solution.py
-# Enter - http://py4e-data.dr-chuck.net/comments_42.html
-# Count 50
-# Sum 2...
+# Exercise 2: Change your socket program so that it counts the number of characters
+# it has received and stops displaying any text after it has shown 3000 characters.
+# The program should retrieve the entire document and count the total number of
+# characters and display the count of the number of characters at the end of the document.
 
-from urllib.request import urlopen
-from bs4 import BeautifulSoup
+import socket
 
 url = input("Enter - ")
-html = urlopen(url).read()
-soup = BeautifulSoup(html, "html.parser")
+sep_url = url.split("/")
 
-count = 0
-total = 0
-tags = soup('span')
-for tag in tags:
-    count += 1
-    total += int(tag.contents[0])
-    # Look at the parts of a tag
-#    print('TAG:', tag)
-#    print('URL:', tag.get('class', None))
-#    print('Contents:', tag.contents[0])
-#    print('Attrs:', tag.attrs)
+mysocket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+try:
+    mysocket.connect((sep_url[2], 80))
+except:
+    print("Invalid url.")
+    quit()
+cmd = ("GET " + url + " HTTP/1.0\r\n\r\n").encode()
+mysocket.send(cmd)
 
-print("Count", count)
-print("Sum", total)
+decoded_data = list()
+numberOfLetters = 0
+end_str = ""
+
+while True:
+    data = mysocket.recv(512)
+    if len(data) < 1:
+        break
+    decoded_data += data.decode()
+
+if len(decoded_data) < 3000:
+    while numberOfLetters < len(decoded_data):
+        for letter in decoded_data:
+            numberOfLetters += 1
+            end_str += letter
+else:
+    while numberOfLetters < 3000:
+        end_str += decoded_data[numberOfLetters]
+        numberOfLetters += 1
+
+print(end_str)
+print("\nNumber of letters:", len(decoded_data))
+
+mysocket.close()
