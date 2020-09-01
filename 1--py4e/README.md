@@ -21,7 +21,8 @@ According to [Python for Everybody](https://www.py4e.com/).
   - Exercises: [10.1](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/exercises/10.1.py), [10.2](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/exercises/10.2.py), [10.3](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/exercises/10.3.py)
 - [Chapter 11: Regular Expressions](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/11.md)
   - Exercises: [11.1](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/exercises/11.1.py), [11.2](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/exercises/11.2.py), [11.assignent](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/exercises/11.assignent.py)
-- [Chapter 12: Networked Programs]
+- [Chapter 12: Networked Programs](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/12.md)
+  - Exercises: [12](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/exercises/12.py), [12.bs](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/exercises/12.bs.py), [12.1](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/exercises/12.1.py), [12.2.sample](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/exercises/12.2.sample.py), [12.2](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/exercises/12.2.py), [12.3](https://github.com/elijabesu/ossu-cs/blob/master/1--py4e/exercises/12.3.py)
 - [Chapter 13: Python and Web Services]
 - [Chapter 14: Python Objects]
 - [Chapter 15: Python and Databases]
