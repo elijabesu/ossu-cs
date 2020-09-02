@@ -6,7 +6,7 @@
 # 
 # Number of vowels: 5
 
-# s = 'azcbobobegghakl'
+s = 'azcbobobegghakl'
 vowels = ['a', 'e', 'i', 'o', 'u']
 
 numberOfVowels = 0

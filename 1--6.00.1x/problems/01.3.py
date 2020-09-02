@@ -46,3 +46,16 @@ for i, l in enumerate(s):
         substring = l
 
 print("Longest substring in alphabetical order is:", biggeststring)
+
+# nvm, I don't even need the i *facepalm*
+substring = ""
+biggeststring = ""
+for l in s:
+    if len(substring) == 0 or substring[-1] <= l:
+        substring += l
+        if len(biggeststring) < len(substring):
+            biggeststring = substring
+    else:
+        substring = l
+
+print("Longest substring in alphabetical order is:", biggeststring)

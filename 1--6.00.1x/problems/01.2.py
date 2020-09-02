@@ -6,12 +6,18 @@
 # 
 # Number of times bob occurs is: 2
 
-#s s = 'azcbobobegghakl'
+s = 'azcbobobegghakl'
 lookingFor = 'bob'
-bobCount = 0
+bobCount1 = 0
+bobCount2 = 0
 
 for i in range(len(s)):
     if s[i:i + len(lookingFor)] == lookingFor:
-        bobCount += 1
+        bobCount1 += 1
+print("Number of times bob occurs is:", bobCount1)
 
-print("Number of times bob occurs is:", bobCount)
+
+for i, l in enumerate(s):
+    if s[i:i + len(lookingFor)] == lookingFor:
+        bobCount2 += 1
+print("Number of times bob occurs is:", bobCount2)
