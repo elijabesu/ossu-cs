@@ -23,8 +23,13 @@ soup = BeautifulSoup(html, "html.parser")
 
 # Retrieve all of the anchor tags
 tags = soup('p')
-numberOfTags = 0
-for tag in tags:
-    numberOfTags += 1
+#numberOfTags = 0
+#for tag in tags:
+#    numberOfTags += 1
+#print("Number of paragraphs:", numberOfTags)
 
-print("Number of paragraphs:", numberOfTags)
+#for numberOfTags, tag in enumerate(tags):
+#    continue
+#print("Number of paragraphs:", (numberOfTags + 1))
+
+print("Number of paragraphs:", len(tags))
