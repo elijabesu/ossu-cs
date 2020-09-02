@@ -18,7 +18,7 @@
 # you have time, come back to this problem after you've had a break
 # and cleared your head.
 
-# s = 'azcbobobegghakl'
+s = 'azcbobobegghakl'
 substring = ""
 biggeststring = ""
 
@@ -29,5 +29,18 @@ for i in range(len(s)):
             biggeststring = substring
     else:
         substring = s[i]
+
+print("Longest substring in alphabetical order is:", biggeststring)
+
+# with enumerate():
+#   i is the index
+#   l is the letter
+for i, l in enumerate(s):
+    if len(substring) == 0 or substring[-1] <= l:
+        substring += l
+        if len(biggeststring) < len(substring):
+            biggeststring = substring
+    else:
+        substring = l
 
 print("Longest substring in alphabetical order is:", biggeststring)
