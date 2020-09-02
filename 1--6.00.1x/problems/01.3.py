@@ -35,6 +35,8 @@ print("Longest substring in alphabetical order is:", biggeststring)
 # with enumerate():
 #   i is the index
 #   l is the letter
+substring = ""
+biggeststring = ""
 for i, l in enumerate(s):
     if len(substring) == 0 or substring[-1] <= l:
         substring += l
